@@ -31,7 +31,7 @@ As seguintes ferramentas foram utilizadas para o desenvolvimento deste protótip
 
 A API do GitHub é bastante completa e muito bem documetada. Ela permite realizar a consulta e manipulação de quase todas as entidades da plataforma, incluindo organizações, repositórios e usuários.
 
-Existem endpoints públicos que permitem o acesso às informações da organização. Por meio [deste endpoint](https://api.github.com/orgs/WebTech-PUC-Minas), por exemplo, é possível consultar as informações da organização da WebTech. Contudo, a quantidade de requisições que podem ser feitas por hora é limitada por IP.
+Existem endpoints públicos que permitem o acesso a informações públicas. Por meio [deste endpoint](https://api.github.com/orgs/WebTech-PUC-Minas), por exemplo, é possível consultar as informações da organização da WebTech. Contudo, a quantidade de requisições que podem ser feitas por hora é muito limitada.
 
 Para contornar este problema, surge a necessidade de executar as requisições de forma autenticada, o que requer a execução de código no servidor. O Next.js permite a execução de código no [servidor](https://nextjs.org/docs/app/building-your-application/rendering/server-components) e no [cliente](https://nextjs.org/docs/app/building-your-application/rendering/client-components), o que torna possível a execução de requisições autenticadas.
 
