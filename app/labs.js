@@ -6,8 +6,6 @@ export default async function Labs() {
         org: 'WebTech-PUC-Minas'
     });
 
-    console.log(data);
-
     return <>
         <h2 className="text-center text-4xl mb-4">Labs</h2>
         {
